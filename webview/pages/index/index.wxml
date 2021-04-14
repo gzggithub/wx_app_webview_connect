@@ -1,0 +1,4 @@
+<view>
+  <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取手机号登录 </button>
+  <web-view wx:if="{{isJump}}" src="{{visitUrl}}"></web-view>
+</view>
